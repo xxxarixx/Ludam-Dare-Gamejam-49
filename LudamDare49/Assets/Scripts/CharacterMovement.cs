@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class CharacterMovement : MonoBehaviour
 {
+    public static CharacterMovement instance;
+    [HideInInspector] public bool PlayerIsInteracting = false; 
     public float MoveSpeed;
     public float JumpHeight;
     float CurrentSpeed;
@@ -23,6 +25,7 @@ public class CharacterMovement : MonoBehaviour
     public Transform ToFlip;
     private void Awake()
     {
+        instance = this;
         controlls = new MainControlls();
         controlls.Player.Movement.performed += ctx => HorizontalInput = ctx.ReadValue<float>();
         controlls.Player.Movement.canceled += ctx => HorizontalInput = 0;

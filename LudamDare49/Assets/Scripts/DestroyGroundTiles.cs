@@ -91,6 +91,13 @@ public class DestroyGroundTiles : MonoBehaviour
         else
         {
             //just clrear
+            if(LastUpdatedContacts != null)
+            {
+                foreach (var tmpContacts in LastUpdatedContacts)
+                {
+                    StartCoroutine(WaitAndDestory(tmpContacts));
+                }   
+            }
             LastUpdatedContacts.Clear();
         }
     }

@@ -1,0 +1,1019 @@
+fileFormatVersion: 2
+guid: 22c566c554f8c394b8166a2ff4458438
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2494784025737407392
+    second: Mouse SpriteSheet_0
+  - first:
+      213: 1636217513737462108
+    second: Mouse SpriteSheet_1
+  - first:
+      213: -3854854591577098579
+    second: Mouse SpriteSheet_2
+  - first:
+      213: 3259448413713463339
+    second: Mouse SpriteSheet_3
+  - first:
+      213: 5853781761716149401
+    second: Mouse SpriteSheet_4
+  - first:
+      213: -2609298025124310418
+    second: Mouse SpriteSheet_5
+  - first:
+      213: 8892921011887724356
+    second: Mouse SpriteSheet_6
+  - first:
+      213: 4637381201032463155
+    second: Mouse SpriteSheet_7
+  - first:
+      213: 1981492698406181009
+    second: Mouse SpriteSheet_8
+  - first:
+      213: 843558979078156053
+    second: Mouse SpriteSheet_9
+  - first:
+      213: 4087567257810099594
+    second: Mouse SpriteSheet_10
+  - first:
+      213: 2923148070169398878
+    second: Mouse SpriteSheet_11
+  - first:
+      213: 6615372699743262548
+    second: Mouse SpriteSheet_12
+  - first:
+      213: 9081864733549145840
+    second: Mouse SpriteSheet_13
+  - first:
+      213: 5529287266063275319
+    second: Mouse SpriteSheet_14
+  - first:
+      213: 6652888164421654955
+    second: Mouse SpriteSheet_15
+  - first:
+      213: 6725425811373472774
+    second: Mouse SpriteSheet_16
+  - first:
+      213: 5799153160571356703
+    second: Mouse SpriteSheet_17
+  - first:
+      213: -6191573175777376676
+    second: Mouse SpriteSheet_18
+  - first:
+      213: 6152394565690059464
+    second: Mouse SpriteSheet_19
+  - first:
+      213: -7612873214347313849
+    second: Mouse SpriteSheet_20
+  - first:
+      213: 8567932618246367215
+    second: Mouse SpriteSheet_21
+  - first:
+      213: -4206122110336585689
+    second: Mouse SpriteSheet_22
+  - first:
+      213: 9054476870629878219
+    second: Mouse SpriteSheet_23
+  - first:
+      213: 2829658472473512770
+    second: Mouse SpriteSheet_24
+  - first:
+      213: 3452712442981946604
+    second: Mouse SpriteSheet_25
+  - first:
+      213: 8339211400431232337
+    second: Mouse SpriteSheet_26
+  - first:
+      213: -3900611768523451554
+    second: Mouse SpriteSheet_27
+  - first:
+      213: 8955189784892158677
+    second: Mouse SpriteSheet_28
+  - first:
+      213: -8106827916537073952
+    second: Mouse SpriteSheet_29
+  - first:
+      213: -4533598879834641604
+    second: Mouse SpriteSheet_30
+  - first:
+      213: -4735011646183629653
+    second: Mouse SpriteSheet_31
+  - first:
+      213: 5246126855983347721
+    second: Mouse SpriteSheet_32
+  - first:
+      213: 2115809777388445755
+    second: Mouse SpriteSheet_33
+  - first:
+      213: -1746995230084618775
+    second: Mouse SpriteSheet_34
+  - first:
+      213: 2660248518117759260
+    second: Mouse SpriteSheet_35
+  - first:
+      213: -7822547273602341392
+    second: Mouse SpriteSheet_36
+  - first:
+      213: 2005835892991784733
+    second: Mouse SpriteSheet_37
+  - first:
+      213: 2971442627093449787
+    second: Mouse SpriteSheet_38
+  - first:
+      213: 8070604049977358336
+    second: Mouse SpriteSheet_39
+  - first:
+      213: -5710097060658730882
+    second: Mouse SpriteSheet_40
+  - first:
+      213: 5101804395310324029
+    second: Mouse SpriteSheet_41
+  - first:
+      213: -8936853106457245026
+    second: Mouse SpriteSheet_42
+  - first:
+      213: -1764260006652373608
+    second: Mouse SpriteSheet_43
+  - first:
+      213: -1139412758340855874
+    second: Mouse SpriteSheet_44
+  - first:
+      213: 4509673296424721236
+    second: Mouse SpriteSheet_45
+  - first:
+      213: 7826765479458204227
+    second: Mouse SpriteSheet_46
+  - first:
+      213: 552799185233291654
+    second: Mouse SpriteSheet_47
+  - first:
+      213: 7878889131879844472
+    second: Mouse SpriteSheet_48
+  - first:
+      213: 6791193935004937779
+    second: Mouse SpriteSheet_49
+  - first:
+      213: 5180815971162680187
+    second: Mouse SpriteSheet_50
+  - first:
+      213: -4872654855007434131
+    second: Mouse SpriteSheet_51
+  - first:
+      213: -8739789120596471473
+    second: Mouse SpriteSheet_52
+  - first:
+      213: -1617431098958158606
+    second: Mouse SpriteSheet_53
+  - first:
+      213: 6671423786201870479
+    second: Mouse SpriteSheet_54
+  - first:
+      213: 1675164797402895742
+    second: Mouse SpriteSheet_55
+  - first:
+      213: -3118267551606901085
+    second: Mouse SpriteSheet_56
+  - first:
+      213: -2490656733543764199
+    second: Mouse SpriteSheet_57
+  - first:
+      213: -6610726337991226778
+    second: Mouse SpriteSheet_58
+  - first:
+      213: 4120990108162555337
+    second: Mouse SpriteSheet_59
+  - first:
+      213: -8013380890492243438
+    second: Mouse SpriteSheet_60
+  - first:
+      213: -3900784630683002508
+    second: Mouse SpriteSheet_61
+  - first:
+      213: 8904643514244013819
+    second: Mouse SpriteSheet_62
+  - first:
+      213: -3346048059013433473
+    second: Mouse SpriteSheet_63
+  - first:
+      213: 3120094896741453970
+    second: Mouse SpriteSheet_64
+  - first:
+      213: -6465119918190818836
+    second: Mouse SpriteSheet_65
+  - first:
+      213: 2254868140693464635
+    second: Mouse SpriteSheet_66
+  - first:
+      213: 6893497242953600423
+    second: Mouse SpriteSheet_67
+  - first:
+      213: -4863489483601097147
+    second: Mouse SpriteSheet_68
+  - first:
+      213: 1975999415849463525
+    second: Mouse SpriteSheet_69
+  - first:
+      213: -7427720994807971725
+    second: Mouse SpriteSheet_70
+  - first:
+      213: -3182596000665071618
+    second: Mouse SpriteSheet_71
+  - first:
+      213: -6184154170642338540
+    second: Mouse SpriteSheet_72
+  - first:
+      213: -8744559608916058661
+    second: Mouse SpriteSheet_73
+  - first:
+      213: 2566535659727925626
+    second: Mouse SpriteSheet_74
+  - first:
+      213: 2773482639440142326
+    second: Mouse SpriteSheet_75
+  - first:
+      213: -4285163524663643355
+    second: Mouse SpriteSheet_76
+  - first:
+      213: 2675205539433960673
+    second: Mouse SpriteSheet_77
+  - first:
+      213: -3397652087534355940
+    second: Mouse SpriteSheet_78
+  - first:
+      213: -4116419646071497830
+    second: Mouse SpriteSheet_79
+  - first:
+      213: -6031558474169084656
+    second: Mouse SpriteSheet_80
+  - first:
+      213: -3964826526704976862
+    second: Mouse SpriteSheet_81
+  - first:
+      213: -2470759156843724027
+    second: Mouse SpriteSheet_82
+  - first:
+      213: -7122793593976166625
+    second: Mouse SpriteSheet_83
+  - first:
+      213: -3980934625011333674
+    second: Mouse SpriteSheet_84
+  - first:
+      213: 2883383262699316943
+    second: Mouse SpriteSheet_85
+  - first:
+      213: -1932300243437409962
+    second: Mouse SpriteSheet_86
+  - first:
+      213: -3122875481714285643
+    second: Mouse SpriteSheet_87
+  - first:
+      213: 7558279789724416930
+    second: Mouse SpriteSheet_88
+  - first:
+      213: 4621564496033131413
+    second: Mouse SpriteSheet_89
+  - first:
+      213: 8398974603980602546
+    second: Mouse SpriteSheet_90
+  - first:
+      213: -916104100361917273
+    second: Mouse SpriteSheet_91
+  - first:
+      213: -6874403071016885270
+    second: Mouse SpriteSheet_92
+  - first:
+      213: -4355171310389251217
+    second: Mouse SpriteSheet_93
+  - first:
+      213: -6351474511351570842
+    second: Mouse SpriteSheet_94
+  - first:
+      213: -3935141913787506092
+    second: Mouse SpriteSheet_95
+  - first:
+      213: 6436604627861492874
+    second: Mouse SpriteSheet_96
+  - first:
+      213: -6887602558799900763
+    second: Mouse SpriteSheet_97
+  - first:
+      213: 6366166126259964990
+    second: Mouse SpriteSheet_98
+  - first:
+      213: -6749790863307519827
+    second: Mouse SpriteSheet_99
+  - first:
+      213: -1017578456800747030
+    second: Mouse SpriteSheet_100
+  - first:
+      213: 4356802154308031904
+    second: Mouse SpriteSheet_101
+  - first:
+      213: 7787161968275723244
+    second: Mouse SpriteSheet_102
+  - first:
+      213: 3380798779511459108
+    second: Mouse SpriteSheet_103
+  - first:
+      213: -8124462234467132690
+    second: Mouse SpriteSheet_104
+  - first:
+      213: 4557558329834595902
+    second: Mouse SpriteSheet_105
+  - first:
+      213: -4320310107226286067
+    second: Mouse SpriteSheet_106
+  - first:
+      213: -2165129063715114620
+    second: Mouse SpriteSheet_107
+  - first:
+      213: 5931577603532096401
+    second: Mouse SpriteSheet_108
+  - first:
+      213: -8010494368093869467
+    second: Mouse SpriteSheet_109
+  - first:
+      213: -5544971269211172588
+    second: Mouse SpriteSheet_110
+  - first:
+      213: 4307727153149927480
+    second: Mouse SpriteSheet_111
+  - first:
+      213: -6812445161134381231
+    second: Mouse SpriteSheet_112
+  - first:
+      213: -4628778958277856242
+    second: Mouse SpriteSheet_113
+  - first:
+      213: 6648222113061693903
+    second: Mouse SpriteSheet_114
+  - first:
+      213: -5070401620726292360
+    second: Mouse SpriteSheet_115
+  - first:
+      213: 5325239357115847553
+    second: Mouse SpriteSheet_116
+  - first:
+      213: 334304143997744216
+    second: Mouse SpriteSheet_117
+  - first:
+      213: 4153610400171176879
+    second: Mouse SpriteSheet_118
+  - first:
+      213: 6567646817035971383
+    second: Mouse SpriteSheet_119
+  - first:
+      213: -53007347867071790
+    second: Mouse SpriteSheet_120
+  - first:
+      213: -7412145163221631224
+    second: Mouse SpriteSheet_121
+  - first:
+      213: -7250120397210922829
+    second: Mouse SpriteSheet_122
+  - first:
+      213: -3093336199504949271
+    second: Mouse SpriteSheet_123
+  - first:
+      213: 4885496674337516473
+    second: Mouse SpriteSheet_124
+  - first:
+      213: 8014952558424300082
+    second: Mouse SpriteSheet_125
+  - first:
+      213: -9200017084234153708
+    second: Mouse SpriteSheet_126
+  - first:
+      213: 739439952439599311
+    second: Mouse SpriteSheet_127
+  - first:
+      213: 1822268953677699372
+    second: Mouse SpriteSheet_128
+  - first:
+      213: -6984137020339733780
+    second: Mouse SpriteSheet_129
+  - first:
+      213: -3418604608035127975
+    second: Mouse SpriteSheet_130
+  - first:
+      213: 5049670246178610396
+    second: Mouse SpriteSheet_131
+  - first:
+      213: -7228397967051560329
+    second: Mouse SpriteSheet_132
+  - first:
+      213: -6006209215538672254
+    second: Mouse SpriteSheet_133
+  - first:
+      213: 7489122672000203838
+    second: Mouse SpriteSheet_134
+  - first:
+      213: -8997019310550365639
+    second: Mouse SpriteSheet_135
+  - first:
+      213: 2164413838953112281
+    second: Mouse SpriteSheet_136
+  - first:
+      213: -6031503084861407768
+    second: Mouse SpriteSheet_137
+  - first:
+      213: -8114886060561235068
+    second: Mouse SpriteSheet_138
+  - first:
+      213: 2211592072246973777
+    second: Mouse SpriteSheet_139
+  - first:
+      213: 4534140139424136570
+    second: Mouse SpriteSheet_140
+  - first:
+      213: 6478653781075791426
+    second: Mouse SpriteSheet_141
+  - first:
+      213: -1056060990550754928
+    second: Mouse SpriteSheet_142
+  - first:
+      213: -8031591260977227463
+    second: Mouse SpriteSheet_143
+  - first:
+      213: 4890424855465815725
+    second: Mouse SpriteSheet_144
+  - first:
+      213: -1340091444088006953
+    second: Mouse SpriteSheet_145
+  - first:
+      213: 4310429345812270503
+    second: Mouse SpriteSheet_146
+  - first:
+      213: 95319050692761069
+    second: Mouse SpriteSheet_147
+  - first:
+      213: -8919665775051265148
+    second: Mouse SpriteSheet_148
+  - first:
+      213: 8339593914515892496
+    second: Mouse SpriteSheet_149
+  - first:
+      213: -6336921248992304587
+    second: Mouse SpriteSheet_150
+  - first:
+      213: 9016360645257042404
+    second: Mouse SpriteSheet_151
+  - first:
+      213: 3633706518650939119
+    second: Mouse SpriteSheet_152
+  - first:
+      213: -5591844612332876047
+    second: Mouse SpriteSheet_153
+  - first:
+      213: 4363816655646709753
+    second: Mouse SpriteSheet_154
+  - first:
+      213: 795723348980353917
+    second: Mouse SpriteSheet_155
+  - first:
+      213: 4757121872120610154
+    second: Mouse SpriteSheet_156
+  - first:
+      213: -2243016988477346948
+    second: Mouse SpriteSheet_157
+  - first:
+      213: 7358389019937227944
+    second: Mouse SpriteSheet_158
+  - first:
+      213: -9028293400699803830
+    second: Mouse SpriteSheet_159
+  - first:
+      213: -5924632561547576556
+    second: Mouse SpriteSheet_160
+  - first:
+      213: 935794442366014152
+    second: Mouse SpriteSheet_161
+  - first:
+      213: -4535357723793658305
+    second: Mouse SpriteSheet_162
+  - first:
+      213: 8738899069658786511
+    second: Mouse SpriteSheet_163
+  - first:
+      213: 6970518390571795939
+    second: Mouse SpriteSheet_164
+  - first:
+      213: 6029886192362847099
+    second: Mouse SpriteSheet_165
+  - first:
+      213: -1053501467460713273
+    second: Mouse SpriteSheet_166
+  - first:
+      213: 2395490936382688968
+    second: Mouse SpriteSheet_167
+  - first:
+      213: 2227643368327213861
+    second: Mouse SpriteSheet_168
+  - first:
+      213: -8894157111756342496
+    second: Mouse SpriteSheet_169
+  - first:
+      213: -1900197112596662718
+    second: Mouse SpriteSheet_170
+  - first:
+      213: 4198873534994404674
+    second: Mouse SpriteSheet_171
+  - first:
+      213: -529527504461915443
+    second: Mouse SpriteSheet_172
+  - first:
+      213: -1076660871857125833
+    second: Mouse SpriteSheet_173
+  - first:
+      213: -2471271744689041016
+    second: Mouse SpriteSheet_174
+  - first:
+      213: 110707180567226186
+    second: Mouse SpriteSheet_175
+  - first:
+      213: -32071744633720302
+    second: Mouse SpriteSheet_176
+  - first:
+      213: -7835735527676939191
+    second: Mouse SpriteSheet_177
+  - first:
+      213: 5599115116267558016
+    second: Mouse SpriteSheet_178
+  - first:
+      213: 767721951970000116
+    second: Mouse SpriteSheet_179
+  - first:
+      213: -2537513744593598127
+    second: Mouse SpriteSheet_180
+  - first:
+      213: 2740996202944666625
+    second: Mouse SpriteSheet_181
+  - first:
+      213: -6064031419004612976
+    second: Mouse SpriteSheet_182
+  - first:
+      213: 8138222735888433647
+    second: Mouse SpriteSheet_183
+  - first:
+      213: -361841372737711578
+    second: Mouse SpriteSheet_184
+  - first:
+      213: 1741507460912712961
+    second: Mouse SpriteSheet_185
+  - first:
+      213: 7608376676473250476
+    second: Mouse SpriteSheet_186
+  - first:
+      213: -2347004923960879919
+    second: Mouse SpriteSheet_187
+  - first:
+      213: -3728786200230242005
+    second: Mouse SpriteSheet_188
+  - first:
+      213: -2608776892577694739
+    second: Mouse SpriteSheet_189
+  - first:
+      213: -8955736223279372306
+    second: Mouse SpriteSheet_190
+  - first:
+      213: 5682331911921674895
+    second: Mouse SpriteSheet_191
+  - first:
+      213: 4177725117259911837
+    second: Mouse SpriteSheet_192
+  - first:
+      213: 5010086274565890181
+    second: Mouse SpriteSheet_193
+  - first:
+      213: -7789977966052844166
+    second: Mouse SpriteSheet_194
+  - first:
+      213: 9112482907558249985
+    second: Mouse SpriteSheet_195
+  - first:
+      213: 8499850167359049889
+    second: Mouse SpriteSheet_196
+  - first:
+      213: 3308269609506944605
+    second: Mouse SpriteSheet_197
+  - first:
+      213: -204206573003367589
+    second: Mouse SpriteSheet_198
+  - first:
+      213: 7923935650828420828
+    second: Mouse SpriteSheet_199
+  - first:
+      213: -2565258466865073193
+    second: Mouse SpriteSheet_200
+  - first:
+      213: 289510973687919742
+    second: Mouse SpriteSheet_201
+  - first:
+      213: -8262039533192994671
+    second: Mouse SpriteSheet_202
+  - first:
+      213: -5375980684913131436
+    second: Mouse SpriteSheet_203
+  - first:
+      213: -3372149371488388945
+    second: Mouse SpriteSheet_204
+  - first:
+      213: 6304469390435899712
+    second: Mouse SpriteSheet_205
+  - first:
+      213: -869355453752815703
+    second: Mouse SpriteSheet_206
+  - first:
+      213: 275996322727729258
+    second: Mouse SpriteSheet_207
+  - first:
+      213: 4463455303582669983
+    second: Mouse SpriteSheet_208
+  - first:
+      213: 4814305840735736196
+    second: Mouse SpriteSheet_209
+  - first:
+      213: -5993581174764912668
+    second: Mouse SpriteSheet_210
+  - first:
+      213: -5113490243818851359
+    second: Mouse SpriteSheet_211
+  - first:
+      213: -4738525003538946658
+    second: Mouse SpriteSheet_212
+  - first:
+      213: 2628805463963020772
+    second: Mouse SpriteSheet_213
+  - first:
+      213: -1389808319784436927
+    second: Mouse SpriteSheet_214
+  - first:
+      213: -7133796759527413751
+    second: Mouse SpriteSheet_215
+  - first:
+      213: -2542200444216006476
+    second: Mouse SpriteSheet_216
+  - first:
+      213: 4476464799676984592
+    second: Mouse SpriteSheet_217
+  - first:
+      213: 2284194170009519137
+    second: Mouse SpriteSheet_218
+  - first:
+      213: 64751353046270193
+    second: Mouse SpriteSheet_219
+  - first:
+      213: -5712154731524024945
+    second: Mouse SpriteSheet_220
+  - first:
+      213: -8671201772586766851
+    second: Mouse SpriteSheet_221
+  - first:
+      213: -4771753735961393251
+    second: Mouse SpriteSheet_222
+  - first:
+      213: 5093773517582228445
+    second: Mouse SpriteSheet_223
+  - first:
+      213: 86102167583820275
+    second: Mouse SpriteSheet_224
+  - first:
+      213: 1157680558248381668
+    second: Mouse SpriteSheet_225
+  - first:
+      213: -2833414350166880431
+    second: Mouse SpriteSheet_226
+  - first:
+      213: -8765562083370927055
+    second: Mouse SpriteSheet_227
+  - first:
+      213: -6486082748087685164
+    second: Mouse SpriteSheet_228
+  - first:
+      213: 1751469242886671905
+    second: Mouse SpriteSheet_229
+  - first:
+      213: 869321247656321311
+    second: Mouse SpriteSheet_230
+  - first:
+      213: 8516061805269493694
+    second: Mouse SpriteSheet_231
+  - first:
+      213: 4237828972562880130
+    second: Mouse SpriteSheet_232
+  - first:
+      213: -5551062224342256160
+    second: Mouse SpriteSheet_233
+  - first:
+      213: -1910482027155736251
+    second: Mouse SpriteSheet_234
+  - first:
+      213: 503047174403147135
+    second: Mouse SpriteSheet_235
+  - first:
+      213: -4853607476252406130
+    second: Mouse SpriteSheet_236
+  - first:
+      213: -6514898095705717113
+    second: Mouse SpriteSheet_237
+  - first:
+      213: -5223508040464083729
+    second: Mouse SpriteSheet_238
+  - first:
+      213: -3176319764307453743
+    second: Mouse SpriteSheet_239
+  - first:
+      213: -9117498699939446585
+    second: Mouse SpriteSheet_240
+  - first:
+      213: -8766396715662843930
+    second: Mouse SpriteSheet_241
+  - first:
+      213: -7589311832330669165
+    second: Mouse SpriteSheet_242
+  - first:
+      213: 7036665305293304490
+    second: Mouse SpriteSheet_243
+  - first:
+      213: -3905204409853025638
+    second: Mouse SpriteSheet_244
+  - first:
+      213: -616913666827168660
+    second: Mouse SpriteSheet_245
+  - first:
+      213: 2417808553022810845
+    second: Mouse SpriteSheet_246
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mouse SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0645a92852fb06dd0800000000000000
+      internalID: -2494784025737407392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c512891e82305b610800000000000000
+      internalID: 1636217513737462108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da673404c2ec08ac0800000000000000
+      internalID: -3854854591577098579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f91f1013eb3d20800000000000000
+      internalID: 3259448413713463339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c50c36f7fcc3150800000000000000
+      internalID: 5853781761716149401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6256535549e9cbd0800000000000000
+      internalID: -2609298025124310418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
