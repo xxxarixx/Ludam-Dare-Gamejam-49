@@ -8,9 +8,18 @@ public class DestroyGroundTiles : MonoBehaviour
     public LayerMask GroundLayer;
     public float Size;
     public Tilemap tmp;
+    public Tilemap DecorationTmp;
     //public List<List<Vector3Int>> TilePosToDestroy = new List<List<Vector3Int>>();
     public List<Vector3Int> LastUpdatedContacts = new List<Vector3Int>();
     public bool DebugIT = false;
+    public Tile JumpPad;
+    public float JumpPadForce = 5;
+    Rigidbody2D rb;
+    public Color TilesColor = Color.white;
+    private void Start()
+    {
+        rb = GetComponentInParent<Rigidbody2D>();
+    }
     private void Update()
     {
         bool grounded = Physics2D.Raycast(GroundCheck.transform.position, Vector2.down, Size, GroundLayer);
@@ -37,7 +46,11 @@ public class DestroyGroundTiles : MonoBehaviour
                 var currentHitPointTmp = tmp.WorldToCell(contact.point) - new Vector3Int(0, 1, 0);
                 currentContactPoints.Add(currentHitPointTmp);
                 tmp.SetTileFlags(currentHitPointTmp, TileFlags.LockTransform);
-                tmp.SetColor(currentHitPointTmp, Color.white);
+                tmp.SetColor(currentHitPointTmp, TilesColor);
+                if(tmp.GetTile<Tile>(currentHitPointTmp) == JumpPad)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, JumpPadForce);
+                }
             }
 
             if (LastUpdatedContacts.Count > 0)
@@ -105,6 +118,7 @@ public class DestroyGroundTiles : MonoBehaviour
     {
         yield return new WaitForSeconds(0f);
         tmp.SetTile(tmpPos, null);
+        if (DecorationTmp != null) { DecorationTmp.SetTile(tmpPos, null); }
     }
     private void OnDrawGizmos()
     {

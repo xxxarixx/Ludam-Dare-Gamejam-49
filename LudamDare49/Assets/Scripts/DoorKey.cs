@@ -26,19 +26,27 @@ public class DoorKey : MonoBehaviour
         player = CharacterMovement.instance.transform;
         Kmanager = KeysManager.instance;
         interactable.enabled = false;
+        canChangeScene = false;
     }
-
+    bool canChangeScene = false;
     private void Interactable_OnInteract()
     {
         if (DoorFullyOpened)
         {
-            Debug.Log("DoorOpenedCanGo");
-             sprend.sprite = OpenedDoorSprite;
-            foreach (var mlock in LocksID)
+            if (!canChangeScene)
             {
-                Destroy(mlock.KeyInHole.KeyFollower);
+                Debug.Log("DoorOpenedCanGo");
+                 sprend.sprite = OpenedDoorSprite;
+                foreach (var mlock in LocksID)
+                {
+                    Destroy(mlock.KeyInHole.KeyFollower);
+                }
+                canChangeScene = true;
             }
-            //SceneManager.LoadScene(0);
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
         else
         {
