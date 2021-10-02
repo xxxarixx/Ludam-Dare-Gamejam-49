@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 085e8c6c8a5dd4146810e89ab267d629
+guid: 0ed25e904cadbe244bbc82c49b2e81d2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,7 +37,7 @@ ScriptedImporter:
     spriteTessellationDetail: 0
     spriteExtrude: 1
     spriteMeshType: 1
-    spriteAlignment: 7
+    spriteAlignment: 0
     spritePivot: {x: 0, y: 0}
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 1
@@ -68,30 +68,17 @@ ScriptedImporter:
   animationSettings: []
   texture: {instanceID: 0}
   spriteImportData:
-  - name: Character
+  - name: GroundTile
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 32
-      height: 32
+      width: 16
+      height: 16
     alignment: 0
     pivot: {x: 0.5, y: 0.5}
     border: {x: 0, y: 0, z: 0, w: 0}
     tessellationDetail: 0
-    spriteID: 05b95688d37544045b2cc50fd21e42b4
-  spriteRects:
-  - name: Character
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 32
-      height: 32
-    spriteID: db5e8ab5446c27c4aa12438e2d3a2fc1
-    internalID: 0
+    spriteID: 0795af19891c9b04da779ff2024dad9d
+  spriteRects: []
   selectedImporter: 1
