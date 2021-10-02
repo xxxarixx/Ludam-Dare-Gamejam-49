@@ -8,68 +8,101 @@ public class DestroyGroundTiles : MonoBehaviour
     public LayerMask GroundLayer;
     public float Size;
     public Tilemap tmp;
-    public Vector3Int TilePosToDestroy = new Vector3Int(-100000,-10000000,-10000000);
+    //public List<List<Vector3Int>> TilePosToDestroy = new List<List<Vector3Int>>();
+    public List<Vector3Int> LastUpdatedContacts = new List<Vector3Int>();
+    public bool DebugIT = false;
     private void Update()
     {
-        /* var hit = Physics2D.Raycast(GroundCheck.transform.position, Vector2.down, Size, GroundLayer);
-         if (hit.collider != null)
-         {
-             var currentHitPointTmp = tmp.WorldToCell(hit.point);
+        bool grounded = Physics2D.Raycast(GroundCheck.transform.position, Vector2.down, Size, GroundLayer);
+        /*tmp.SetTileFlags(TilePosToDestroy, TileFlags.LockTransform);
+        tmp.SetColor(TilePosToDestroy, Color.white);*/
+        if (!grounded)
+        {
+            foreach (var TmpContactPos in LastUpdatedContacts)
+            {
+                StartCoroutine(WaitAndDestory(TmpContactPos));
+            }
+            LastUpdatedContacts.Clear();
+        }
 
-             if(TilePosToDestroy != currentHitPointTmp)
-             {
-
-                 StartCoroutine(WaitAndDestory(TilePosToDestroy));
-                 TilePosToDestroy = currentHitPointTmp;
-             }
-             else
-             {
-                 tmp.SetTileFlags(TilePosToDestroy, TileFlags.LockTransform);
-                 tmp.SetColor(TilePosToDestroy, Color.white);
-             }
-
-
-         }
-         else
-         {
-             StartCoroutine(WaitAndDestory(TilePosToDestroy));
-         }
- */
-        tmp.SetTileFlags(TilePosToDestroy, TileFlags.LockTransform);
-        tmp.SetColor(TilePosToDestroy, Color.white);
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.transform.CompareTag("Breakable"))
         {
+            //get current contacts and hilight them
+            var currentContactPoints = new List<Vector3Int>();
             foreach (ContactPoint2D contact in collision.contacts)
             {
-                var currentHitPointTmp = tmp.WorldToCell(contact.point);
-                TilePosToDestroy = currentHitPointTmp;
-                
-                /*var currentHitPointTmp = tmp.WorldToCell(contact.point);
-                if (TilePosToDestroy != currentHitPointTmp)
-                {
+                var currentHitPointTmp = tmp.WorldToCell(contact.point) - new Vector3Int(0, 1, 0);
+                currentContactPoints.Add(currentHitPointTmp);
+                tmp.SetTileFlags(currentHitPointTmp, TileFlags.LockTransform);
+                tmp.SetColor(currentHitPointTmp, Color.white);
+            }
 
-                    StartCoroutine(WaitAndDestory(TilePosToDestroy));
-                    TilePosToDestroy = currentHitPointTmp;
+            if (LastUpdatedContacts.Count > 0)
+            {
+                //check if last updated contact points are equal to current updated contact points
+                bool isEqual = true;
+                if (LastUpdatedContacts.Count < currentContactPoints.Count) { isEqual = false; } 
+                else if (currentContactPoints.Count < LastUpdatedContacts.Count) { isEqual = false; }
+                else
+                {
+                    for (int i = 0; i < currentContactPoints.Count; i++)
+                    {
+                        if (LastUpdatedContacts[i] != currentContactPoints[i]) { isEqual = false; }
+                    }
+                }
+                        
+                if (isEqual)
+                {
+                    if (DebugIT) { Debug.Log("Lists equal"); }
                 }
                 else
                 {
-                    tmp.SetTileFlags(TilePosToDestroy, TileFlags.LockTransform);
-                    tmp.SetColor(TilePosToDestroy, Color.white);
-                }*/
+                    //when conact points are not equal check find tiles that are not in current updated contact points
+                    List<Vector3Int> NotEqualPositions = new List<Vector3Int>();
+                    foreach (var lastCheckPos in LastUpdatedContacts)
+                    {
+                        if (!currentContactPoints.Contains(lastCheckPos))
+                        {
+                            NotEqualPositions.Add(lastCheckPos);
+                        }
+                    }
+                    foreach (var pos in NotEqualPositions)
+                    {
+                        StartCoroutine(WaitAndDestory(pos));
+                    }
+                    //recreate list
+                    LastUpdatedContacts.Clear();
+                    LastUpdatedContacts.AddRange(currentContactPoints);
+                    if (DebugIT) { Debug.Log("Lists not equal"); }
+                }
             }
+            else
+            {
+                //recreate list
+                if (DebugIT) { Debug.Log("Lists equal"); }
+                LastUpdatedContacts.Clear();
+                LastUpdatedContacts.AddRange(currentContactPoints);
+            } //equal
+
+        }
+        else
+        {
+            //just clrear
+            LastUpdatedContacts.Clear();
         }
     }
     IEnumerator WaitAndDestory(Vector3Int tmpPos)
     {
-        yield return new WaitForSeconds(.2f);
+        yield return new WaitForSeconds(0f);
         tmp.SetTile(tmpPos, null);
     }
-   /* private void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(GroundCheck.position, GroundCheck.position + Vector3.down * Size);
-    }*/
+        Gizmos.DrawLine(GroundCheck.position, GroundCheck.position +Vector3.down * Size);
+    }
 }
+

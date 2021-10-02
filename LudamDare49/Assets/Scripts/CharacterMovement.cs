@@ -31,7 +31,6 @@ public class CharacterMovement : MonoBehaviour
     void OnJumpPressd()
     {
         if (CurrentjumpAmount < 1) { return; }
-        Debug.Log("PressedJump");
         rb.velocity = new Vector2(rb.velocity.x, CurrentJumpHeight);
         CurrentjumpAmount--;
         isTouchingGround = false;
