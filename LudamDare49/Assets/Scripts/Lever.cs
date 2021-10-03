@@ -11,6 +11,7 @@ public class Lever : MonoBehaviour
     public Sprite LeverClosed;
    public List<LeverDoor> LeverDoors = new List<LeverDoor>();
     public bool LeverOn = false;
+    public AudioClip LevelClip;
      [System.Serializable]public class LeverDoor
     {
         public bool ReverseOn = false;
@@ -28,6 +29,7 @@ public class Lever : MonoBehaviour
     private void Interactable_OnInteract()
     {
         LeverOn = !LeverOn;
+        SfxCreator.instance.PlaySound(LevelClip, .75f);
         ChangeLeverState(LeverOn);
     }
     public void ChangeLeverState(bool State)

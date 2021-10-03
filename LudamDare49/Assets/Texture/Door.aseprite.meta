@@ -17,6 +17,12 @@ ScriptedImporter:
   - first:
       213: 6936692723106717497
     second: Door_4
+  - first:
+      213: 8808929173557640368
+    second: Door_5
+  - first:
+      213: -118703559905284274
+    second: Door_6
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -122,8 +128,8 @@ ScriptedImporter:
   - name: Door_2
     rect:
       serializedVersion: 2
-      x: 0
-      y: 0
+      x: 96
+      y: 64
       width: 32
       height: 32
     alignment: 7
@@ -134,7 +140,7 @@ ScriptedImporter:
   - name: Door_3
     rect:
       serializedVersion: 2
-      x: 32
+      x: 0
       y: 0
       width: 32
       height: 41
@@ -146,7 +152,7 @@ ScriptedImporter:
   - name: Door_4
     rect:
       serializedVersion: 2
-      x: 64
+      x: 32
       y: 0
       width: 32
       height: 41
@@ -155,5 +161,29 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     tessellationDetail: 0
     spriteID: 93f10dc8745144060800000000000000
+  - name: Door_5
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 32
+      height: 32
+    alignment: 7
+    pivot: {x: 0.5, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 0bc7a71696a9f3a70800000000000000
+  - name: Door_6
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 32
+      height: 32
+    alignment: 7
+    pivot: {x: 0.5, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: e4f654ebdb74a5ef0800000000000000
   spriteRects: []
   selectedImporter: 1

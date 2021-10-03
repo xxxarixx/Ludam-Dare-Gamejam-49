@@ -10,6 +10,8 @@ public class MenuController : MonoBehaviour
     public int howMuchSecretsDiscovered = 0;
     public TextMeshProUGUI SecretCount;
     public SecretsGainedCounter secretsCounter;
+    public AudioClip ClickSound;
+    public AudioSource source;
     private void Awake()
     {
         instance = this;
@@ -22,7 +24,10 @@ public class MenuController : MonoBehaviour
     public void OnExitButton()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.ExitPlaymode();
+    }
+    public void playClickSound()
+    {
+        source.PlayOneShot(ClickSound);
     }
     public void LoadScene(int SceneIndex)
     {

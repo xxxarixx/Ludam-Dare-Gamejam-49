@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -576,13 +576,24 @@ PrefabInstance:
         type: 3}
       propertyPath: LeverDoors.Array.data[0].LeverDoorOpen
       value: 
-      objectReference: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+      objectReference: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
         type: 3}
     - target: {fileID: 7669813627335453149, guid: 3691359565381bf49b8218dfc75dcceb,
         type: 3}
       propertyPath: LeverDoors.Array.data[0].LeverDoorClosed
       value: 
-      objectReference: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+      objectReference: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+        type: 3}
+    - target: {fileID: 7669813627335453149, guid: 3691359565381bf49b8218dfc75dcceb,
+        type: 3}
+      propertyPath: LevelClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
+    - target: {fileID: 7669813627833413163, guid: 3691359565381bf49b8218dfc75dcceb,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
         type: 3}
     - target: {fileID: 7669813627833413164, guid: 3691359565381bf49b8218dfc75dcceb,
         type: 3}
@@ -673,6 +684,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2195143645171491494, guid: cab7d0027f877ad4294bd682fe9800fa,
+        type: 3}
+      propertyPath: m_text
+      value: Level:9
+      objectReference: {fileID: 0}
     - target: {fileID: 2204590875351781210, guid: cab7d0027f877ad4294bd682fe9800fa,
         type: 3}
       propertyPath: tmp

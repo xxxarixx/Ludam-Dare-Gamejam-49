@@ -272,23 +272,24 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 767364143}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 1
     LeverDoorGoReference: {fileID: 1712645478}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
+  LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
 --- !u!61 &257843697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -403,6 +404,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2195143645171491494, guid: cab7d0027f877ad4294bd682fe9800fa,
+        type: 3}
+      propertyPath: m_text
+      value: Level:7
+      objectReference: {fileID: 0}
     - target: {fileID: 2204590875351781210, guid: cab7d0027f877ad4294bd682fe9800fa,
         type: 3}
       propertyPath: tmp
@@ -702,7 +708,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+  m_Sprite: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1017,23 +1023,24 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1924003674}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1712645478}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 1
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
+  LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
 --- !u!61 &1218050185
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1130,23 +1137,24 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1712645478}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 1
     LeverDoorGoReference: {fileID: 1924003674}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
+  LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
 --- !u!61 &1238699019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1254,11 +1262,12 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
+  LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
 --- !u!114 &1344254126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1452,7 +1461,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+  m_Sprite: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1642,7 +1651,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+  m_Sprite: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1792,7 +1801,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6287002357799567390, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+  m_Sprite: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -12,6 +12,9 @@ public class DoorKey : MonoBehaviour
     KeysManager Kmanager;
     public Sprite OpenedDoorSprite;
     bool DoorFullyOpened = false;
+    public GameObject ThanksForPlaying;
+    public GameObject ThanksForPlayingWithSecrets;
+    public AudioClip SfxOnOpen;
     [System.Serializable]public class Lock
     {
         public string Lockname;
@@ -42,10 +45,17 @@ public class DoorKey : MonoBehaviour
                     Destroy(mlock.KeyInHole.KeyFollower);
                 }
                 canChangeScene = true;
+                SfxCreator.instance.PlaySound(SfxOnOpen,.75f);
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                if (SceneManager.GetActiveScene().buildIndex == 10) {  Instantiate(ThanksForPlaying, Vector3.zero, Quaternion.identity); }
+                else
+                if(SceneManager.GetActiveScene().buildIndex == 11) { Instantiate(ThanksForPlayingWithSecrets, Vector3.zero, Quaternion.identity); }
+                else
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
             }
         }
         else

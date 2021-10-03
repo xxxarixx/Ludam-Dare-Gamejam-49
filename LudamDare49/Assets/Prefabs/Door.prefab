@@ -270,3 +270,8 @@ MonoBehaviour:
   sprend: {fileID: 1017029295285740164}
   OpenedDoorSprite: {fileID: 5213229242370633579, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
     type: 3}
+  ThanksForPlaying: {fileID: 8451826728919667840, guid: d987f6db4d1817d45adc1e118dc5c8f0,
+    type: 3}
+  ThanksForPlayingWithSecrets: {fileID: 7551701427083938031, guid: 6d434472246bfa24c9ab6d1636476edd,
+    type: 3}
+  SfxOnOpen: {fileID: 8300000, guid: 905eaeffee4d4c34fa99807eb245aaf8, type: 3}
