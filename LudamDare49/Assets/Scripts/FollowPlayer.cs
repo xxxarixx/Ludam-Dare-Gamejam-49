@@ -35,6 +35,7 @@ public class FollowPlayer : MonoBehaviour
             return; 
         }
         rb.velocity = getDirectionToplayer() * currentMoveSpeed * Time.deltaTime;
+        currentMoveSpeed = MoveSpeed * (Vector3.Distance(transform.position, target.position) / 2);
     }
     public float Progress = 0f;
     private void Update()

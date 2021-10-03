@@ -7,6 +7,7 @@ public class PickableKey : MonoBehaviour
     public GameObject KeyFollower;
     public int DoorID;
     Interactable interactable;
+    public AudioClip sfx;
     
     private void Start()
     {
@@ -18,6 +19,7 @@ public class PickableKey : MonoBehaviour
         var spawnedFollower = Instantiate(KeyFollower, transform.position, Quaternion.identity);
         spawnedFollower.GetComponentInChildren<SpriteRenderer>().sprite = GetComponentInChildren<SpriteRenderer>().sprite;
         KeysManager.instance.AddKey(spawnedFollower, DoorID);
+        SfxCreator.instance.PlaySound(sfx);
         Destroy(gameObject);
         Debug.Log("ShouldGrabKey");
     }

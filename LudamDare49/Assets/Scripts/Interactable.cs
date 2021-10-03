@@ -32,7 +32,7 @@ public class Interactable : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.CompareTag("Player")) { return; }
-        if (CharacterMovement.instance.PlayerIsInteracting) { return; }
+        if (SpawnedPopup != null) { return; }
         CharacterMovement.instance.PlayerIsInteracting = true;
         SpawnedPopup = Instantiate(InteractPopup, SpawnPos.position, Quaternion.identity);
     }

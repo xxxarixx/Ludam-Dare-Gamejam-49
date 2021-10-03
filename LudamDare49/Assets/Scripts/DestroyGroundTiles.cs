@@ -16,6 +16,9 @@ public class DestroyGroundTiles : MonoBehaviour
     public float JumpPadForce = 5;
     Rigidbody2D rb;
     public Color TilesColor = Color.white;
+    [Header("Audio")]
+    public AudioClip DestoryBlockSFX;
+    public AudioClip JumpPadSFX;
     private void Start()
     {
         rb = GetComponentInParent<Rigidbody2D>();
@@ -50,6 +53,7 @@ public class DestroyGroundTiles : MonoBehaviour
                 if(tmp.GetTile<Tile>(currentHitPointTmp) == JumpPad)
                 {
                     rb.velocity = new Vector2(rb.velocity.x, JumpPadForce);
+                    SfxCreator.instance.PlaySound(JumpPadSFX, .15f);
                 }
             }
 
@@ -116,9 +120,31 @@ public class DestroyGroundTiles : MonoBehaviour
     }
     IEnumerator WaitAndDestory(Vector3Int tmpPos)
     {
-        yield return new WaitForSeconds(0f);
-        tmp.SetTile(tmpPos, null);
-        if (DecorationTmp != null) { DecorationTmp.SetTile(tmpPos, null); }
+        yield return new WaitForSeconds(.1f);
+        if (tmp.GetTile<Tile>(tmpPos) != null)
+        { 
+            SfxCreator.instance.PlaySound(DestoryBlockSFX, .1f);
+            GameObject FallingBlockVFX_Parent = new GameObject();
+            {
+                FallingBlockVFX_Parent.AddComponent<JustDestroy>().DestroyTime = .5f;
+                var blockRb = FallingBlockVFX_Parent.AddComponent<Rigidbody2D>();
+                FallingBlockVFX_Parent.transform.position = tmp.CellToWorld(tmpPos) + new Vector3(.5f, .5f);
+            }
+            GameObject SpriteHolder = new GameObject();
+            {
+                SpriteHolder.transform.SetParent(FallingBlockVFX_Parent.transform);
+                SpriteHolder.transform.localPosition = Vector3.zero;
+                var spRend = SpriteHolder.AddComponent<SpriteRenderer>();
+                spRend.sprite = tmp.GetTile<Tile>(tmpPos).sprite;
+                spRend.sortingOrder = -1;
+                var sinAnimation = SpriteHolder.AddComponent<SinMoveAnimation>();
+                sinAnimation.MaxHeighMultiplayer = 2f;
+                sinAnimation.MoveSpeed = 6f;
+                sinAnimation.OnlyOneJump = true;
+            }
+            tmp.SetTile(tmpPos, null);
+            if (DecorationTmp != null) { DecorationTmp.SetTile(tmpPos, null); }
+        }
     }
     private void OnDrawGizmos()
     {

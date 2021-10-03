@@ -23,6 +23,18 @@ public class CharacterMovement : MonoBehaviour
     public bool FacingRight;
     bool CurFaceRight;
     public Transform ToFlip;
+    public Transform RespawnPos;
+    [Header("Animations")]
+    public string IdleName;
+    public string RunName;
+    public string JumpStartName;
+    public string JustLandedName;
+    public Animator anim;
+    [Header("SFX")]
+    public AudioClip JumpSFX;
+    public AudioClip WalkSFX;
+    public AudioClip PlayerFallSFX;
+    public AudioClip HitGroundSFX;
     private void Awake()
     {
         instance = this;
@@ -34,10 +46,14 @@ public class CharacterMovement : MonoBehaviour
     void OnJumpPressd()
     {
         if (CurrentjumpAmount < 1) { return; }
+        SfxCreator.instance.PlaySound(JumpSFX, .35f);
+        fallingAfterJump = true;
+        anim.Play(JumpStartName);
         rb.velocity = new Vector2(rb.velocity.x, CurrentJumpHeight);
         CurrentjumpAmount--;
         isTouchingGround = false;
     }
+    bool fallingAfterJump = false;
     private void OnEnable()
     {
         controlls.Enable();
@@ -53,7 +69,9 @@ public class CharacterMovement : MonoBehaviour
         CurrentSpeed = MoveSpeed;
         CurrentJumpHeight = JumpHeight;
         CurFaceRight = FacingRight;
+        canPlayHitOnGroundSFX = true;
     }
+    bool canPlayHitOnGroundSFX = true;
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(HorizontalInput * CurrentSpeed * Time.deltaTime, rb.velocity.y);
@@ -61,13 +79,31 @@ public class CharacterMovement : MonoBehaviour
         if (isTouchingGround)
         {
             CurrentjumpAmount = jumpAmount;
+            if (canPlayHitOnGroundSFX)
+            {
+                SfxCreator.instance.PlaySound(HitGroundSFX, .25f);
+                canPlayHitOnGroundSFX = false;
+            }
+            if (fallingAfterJump && rb.velocity.y < .5f)
+            {
+                anim.Play(JustLandedName);
+            }
+        }
+        if (!isTouchingGround)
+        {
+            canPlayHitOnGroundSFX = true;
         }
         if (!isTouchingGround) { CurrentJumpHeight = InAirJumpForce; } else { CurrentJumpHeight = JumpHeight; }
     }
     float LastUpdatedFlip = 0;
+    public void OnEndLandingAnimation()
+    {
+        fallingAfterJump = false;
+    }
     private void Update()
     {
-        if (transform.position.y < -10f) { transform.position = Vector3.zero; }
+        if (!fallingAfterJump) { if (HorizontalInput != 0) { anim.Play(RunName); } else { anim.Play(IdleName); } }
+        if (transform.position.y < -10f) { transform.position = RespawnPos.position; SfxCreator.instance.PlaySound(PlayerFallSFX); }
         
         if(CurFaceRight == false && HorizontalInput > 0)
         {
