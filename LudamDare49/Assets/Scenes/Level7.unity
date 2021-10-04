@@ -272,21 +272,21 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 767364143}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 1
     LeverDoorGoReference: {fileID: 1712645478}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
   LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
@@ -1023,21 +1023,21 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1924003674}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1712645478}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 1
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
   LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
@@ -1137,21 +1137,21 @@ MonoBehaviour:
   LeverDoors:
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1546159156}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 0
     LeverDoorGoReference: {fileID: 1712645478}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   - ReverseOn: 1
     LeverDoorGoReference: {fileID: 1924003674}
-    LeverDoorOpen: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorOpen: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
-    LeverDoorClosed: {fileID: -118703559905284274, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
+    LeverDoorClosed: {fileID: 8808929173557640368, guid: 6c0ac35975a6bc049bcadbc9eae5fc54,
       type: 3}
   LeverOn: 0
   LevelClip: {fileID: 8300000, guid: d7ae721706f9c7f479ec85404963078f, type: 3}
